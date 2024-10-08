@@ -21,11 +21,11 @@ I then create the relationships between each ```dimension``` table and the ```fa
 
 I used these DAX formulas to create useful measures and calculated columns: 
 
-![Total Customers Dax](Github Images\Total Customers Dax.png)
+![Total Customers Dax](\Github Images\Total Customers Dax.png)
 
 ![Total Profit Dax](Github Images\Total Profit Dax.png)
 
-![Total Revenue Dax](Github Images\Total Revenue Dax.png)
+![Total Revenue Dax](\Github Images\Total Revenue Dax.png)
 
 And for later use, I created two Hierarchies to help visualise and drill down into the data a bit more
 
