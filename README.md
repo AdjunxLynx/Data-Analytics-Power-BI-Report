@@ -13,7 +13,9 @@ Using Power BIs' built in ```Calendar``` function, I created a date table rangin
 
 I then create the relationships between each ```dimension``` table and the ```fact``` table to create a ```Star Schema```. There are two relationships between ```Date``` and ```Orders```, one from ```Orders[Order Date]```, and another from ```Orders[Shipping Date]```. The default relationship is currently ```Order Date```, however later on it will be useful to create filters using the ```Shipping Date``` instead.
 
-![Data Model View](Github Images\Model View.png)
+<p>
+    <img src="Github Images\Model View.png" width="1243" height="680" />
+</p>
 
 
 ## Creating measures and hierarchies
@@ -25,22 +27,23 @@ I used these DAX formulas to create useful measures and calculated columns:
 <p>
     <img src="Github Images\Total Customers Dax.png" width="613" height="42" />
 </p>
-
 <p>
-    <img src="Github Images\Total Profit Dax.png" width="613" height="42" />
+    <img src="Github Images\Total Profit Dax.png" width="1215" height="40" />
 </p>
 
 <p>
-    <img src="Github Images\Total Revenue Dax.png" width="613" height="42" />
+    <img src="Github Images\Total Revenue Dax.png" width="889" height="43" />
 </p>
+
 
 
 And for later use, I created two Hierarchies to help visualise and drill down into the data a bit more
 
 <p>
-    <img src="Github Images\Geographical Hierarchy.png" width="613" height="42" />
+    <img src="Github Images\Geographical Hierarchy.png" width="264" height="144" />
 </p>
 
 <p>
-    <img src="Github Images\Year Hierarchy.png" width="613" height="42" />
+    <img src="Github Images\Year Hierarchy.png" width="265" height="211" />
 </p>
+
