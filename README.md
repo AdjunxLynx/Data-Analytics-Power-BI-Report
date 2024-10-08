@@ -1,4 +1,3 @@
-
 # Data-Analytics-Power-BI-Report
 
 ## Extracting and creating the database
@@ -12,10 +11,24 @@ It then cleans the data, removing redundant columns and duplicate keys. It then 
 
 Using Power BIs' built in ```Calendar``` function, I created a date table ranging from the first date in ```Orders[Order Date]``` to the most recent date in ```Orders[Shipping Date]```. Then I used a variety of useful functions to create columns about the date range, such as ```STARTOF(YEAR/QUARTER/MONTH)```.
 
-I then create the relationships between each ```dimension``` table and the ```fact``` table to create a ```Star Schema```. There are two relationships between ```Date``` and ```Orders```, one from ```Orders[Order Date]```, and another from ```Orders[Shipping Date]```. The default currently is ```Order Date```, however later on it will be useful to create filters using the ```Shipping Date``` instead.
-```markdown
-![Data Model View]("\Github Images\Model View.png".png)
-```
+I then create the relationships between each ```dimension``` table and the ```fact``` table to create a ```Star Schema```. There are two relationships between ```Date``` and ```Orders```, one from ```Orders[Order Date]```, and another from ```Orders[Shipping Date]```. The default relationship is currently ```Order Date```, however later on it will be useful to create filters using the ```Shipping Date``` instead.
 
-## Creating measures and hierarchies 
+![Data Model View](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Model View.png)
 
+
+## Creating measures and hierarchies
+
+
+I used these DAX formulas to create useful measures and calculated columns: 
+
+![Total Customers Dax](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Total Customers Dax.png)
+
+![Total Profit Dax](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Total Profit Dax.png)
+
+![Total Revenue Dax](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Total Revenue Dax.png)
+
+And for later use, I created two Hierarchies to help visualise and drill down into the data a bit more
+
+![Geographical Hierarchy](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Geographical Hierarchy.png)
+
+![Year Hierarchy](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Year Hierarchy.png)
