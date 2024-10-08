@@ -13,7 +13,7 @@ Using Power BIs' built in ```Calendar``` function, I created a date table rangin
 
 I then create the relationships between each ```dimension``` table and the ```fact``` table to create a ```Star Schema```. There are two relationships between ```Date``` and ```Orders```, one from ```Orders[Order Date]```, and another from ```Orders[Shipping Date]```. The default relationship is currently ```Order Date```, however later on it will be useful to create filters using the ```Shipping Date``` instead.
 
-![Data Model View](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Model View.png)
+![Data Model View](Github Images\Model View.png)
 
 
 ## Creating measures and hierarchies
@@ -21,14 +21,14 @@ I then create the relationships between each ```dimension``` table and the ```fa
 
 I used these DAX formulas to create useful measures and calculated columns: 
 
-![Total Customers Dax](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Total Customers Dax.png)
+![Total Customers Dax](Github Images\Total Customers Dax.png)
 
-![Total Profit Dax](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Total Profit Dax.png)
+![Total Profit Dax](Github Images\Total Profit Dax.png)
 
-![Total Revenue Dax](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Total Revenue Dax.png)
+![Total Revenue Dax](Github Images\Total Revenue Dax.png)
 
 And for later use, I created two Hierarchies to help visualise and drill down into the data a bit more
 
-![Geographical Hierarchy](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Geographical Hierarchy.png)
+![Geographical Hierarchy](Github Images\Geographical Hierarchy.png)
 
-![Year Hierarchy](C:\Users\kamil\OneDrive\Desktop\Power BI Project\Data-Analytics-Power-BI-Report\Github Images\Year Hierarchy.png)
+![Year Hierarchy](Github Images\Year Hierarchy.png)
