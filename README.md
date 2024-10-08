@@ -46,4 +46,41 @@ And for later use, I created two Hierarchies to help visualise and drill down in
 <p>
     <img src="Github Images\Year Hierarchy.png" width="265" height="211" />
 </p>
+## The Report
 
+I created 4 report pages within PBI:
+
+- [Executive Summary](# Executive Summary)
+- [Customer Detail](# Customer Details) 
+- [Product Details](# Product Details)
+- [Stores Map](# Stores Map)
+
+### Customer Details
+
+<p>
+    <img src="Github Images\Customer Detail View.png" width="1000" height="500" />
+</p>
+
+Within this report page, I created 2 Card visuals, showing amount of ```Unique Customers``` and ```Revenue per Customer``` in £. 
+
+Using the date hierarchy I created earlier, I created a line graph with a line of best fit and forecast prediction 10 years ahead with a confidence level of 95%. The date hierarchy meant the user would be able to drill down into the data and see into smaller date ranges.
+
+I then created two displays representing total customers by country and product category bought.
+
+I wanted to create a section on the top 20 Customers by creating a grid with ```Full Name```, ```Total Orders``` measure and ```Total Revenue``` measure, then applying a Top N filter on the ```Total Revenue``` column. 3 new measures were also created to show the top customer by revenue.
+
+<p>
+    <img src="Github Images\Top Customer Name.png" width="1000" height="20" />
+</p>
+
+<p>
+    <img src="Github Images\Top CUstomer Revenue.png" width="1000" height="20" />
+</p>
+
+<p>
+    <img src="Github Images\Top Customer Orders.png" width="1000" height="20" />
+</p>
+
+These DAX codes create a temp table from the ```Customers``` Table, grouping the rows by ```Full Name```. It then sorts the table by ```Total Revenue``` descending, then ```Full Name``` by ascending, and gets the top ```N``` values where ```n``` in this case is 1. Finally, it returns the ```Full Name```, ```Total Revenue``` or ```Total Orders```based on the measure. 
+
+Finally, I created a date slicer to help the user filter the year shown on the report page.
