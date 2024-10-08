@@ -18,17 +18,29 @@ I then create the relationships between each ```dimension``` table and the ```fa
 
 ## Creating measures and hierarchies
 
-
 I used these DAX formulas to create useful measures and calculated columns: 
 
-![Total Customers Dax](\Github Images\Total Customers Dax.png)
 
-![Total Profit Dax](Github Images\Total Profit Dax.png)
 
-![Total Revenue Dax](\Github Images\Total Revenue Dax.png)
+<p>
+    <img src="Github Images\Total Customers Dax.png" width="613" height="42" />
+</p>
+
+<p>
+    <img src="Github Images\Total Profit Dax.png" width="613" height="42" />
+</p>
+
+<p>
+    <img src="Github Images\Total Revenue Dax.png" width="613" height="42" />
+</p>
+
 
 And for later use, I created two Hierarchies to help visualise and drill down into the data a bit more
 
-![Geographical Hierarchy](Github Images\Geographical Hierarchy.png)
+<p>
+    <img src="Github Images\Geographical Hierarchy.png" width="613" height="42" />
+</p>
 
-![Year Hierarchy](Github Images\Year Hierarchy.png)
+<p>
+    <img src="Github Images\Year Hierarchy.png" width="613" height="42" />
+</p>
