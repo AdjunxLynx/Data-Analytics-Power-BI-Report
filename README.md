@@ -120,3 +120,34 @@ Finally, I created a date slicer to help the user filter the year shown on the r
 
 
 ### Product Details
+
+<p>
+    <img src="Github Images\Product Detail View.png" width="1000" height="500" />
+</p>
+
+<p>
+    <img src="Github Images\Product Detail Slicer View.png" width="1000" height="500" />
+</p>
+
+
+
+In this report page, there are 3 main KPIs for the current quarter showing target revenue, profit and total orders, where the goal is a 10% increase from the previous quarter. Next to this, there is two displays showing the current filters applied to the page. I used the following DAX code to create a measure for a card that shows the current filter applied.
+
+<p>
+    <img src="Github Images\Selection view DAX.png" width="889" height="43" />
+</p>
+
+With this display, we need a way to apply the filters, so I created a filter button to display Slicers for the user to interact with. I created a group that showed the slicers, placed directly ontop of the bookmark on the left side of the screen. I then created a bookmark with the group shown, and then hidden, assigning the filter and back button to these bookmarks.
+
+<p>
+    <img src="Github Images\Product Slicer filters.png" width="300" height="500" />
+</p>
+
+On the bottom half on the report page, I place:
+
+- An area chart to show off total revenue over years
+- A scatter chart to show profit per item vs how popular an item is 
+- A grid to show the user metrics about the top 10 best selling items 
+
+### Stores Map
+
