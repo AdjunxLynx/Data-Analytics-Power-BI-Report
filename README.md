@@ -55,6 +55,38 @@ I created 4 report pages within PBI:
 - [Product Details](# Product Details)
 - [Stores Map](# Stores Map)
 
+### Executive Summary 
+
+<p>
+    <img src="Github Images\Executive Summary View.png" width="1000" height="500" />
+</p>
+
+
+This report page gives a very quick overview on how the company is doing, through useful key performance indicators (KPIs), display cards, donut graphs and a revenue trend over the years.
+
+To create the KPIs, I created 3 new measures:
+
+<p>
+    <img src="Github Images\Quarter Revenue.png" width="1000" height="20" />
+</p>
+
+
+<p>
+    <img src="Github Images\Quarter Profit.png" width="1000" height="20" />
+</p>
+
+<p>
+    <img src="Github Images\Quarter Orders.png" width="1000" height="20" />
+</p>
+I also created target measures which aimed to be 5% (1.05 times) greater than the original measure.
+
+
+
+There is a table that displays the top 10 Items selling, ranked by revenue it has made. The table also gives details on its category, amount of customers buying it, and amount of orders has been placed for it.
+
+
+
+
 ### Customer Details
 
 <p>
