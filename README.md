@@ -51,7 +51,7 @@ And for later use, I created two Hierarchies to help visualise and drill down in
 I created 4 report pages within PBI:
 
 - [Executive Summary](# Executive Summary)
-- [Customer Detail](# Customer Details) 
+- [Customer Details](# Customer Details) 
 - [Product Details](# Product Details)
 - [Stores Map](# Stores Map)
 
@@ -116,3 +116,7 @@ I wanted to create a section on the top 20 Customers by creating a grid with ```
 These DAX codes create a temp table from the ```Customers``` Table, grouping the rows by ```Full Name```. It then sorts the table by ```Total Revenue``` descending, then ```Full Name``` by ascending, and gets the top ```N``` values where ```n``` in this case is 1. Finally, it returns the ```Full Name```, ```Total Revenue``` or ```Total Orders```based on the measure. 
 
 Finally, I created a date slicer to help the user filter the year shown on the report page.
+
+
+
+### Product Details
