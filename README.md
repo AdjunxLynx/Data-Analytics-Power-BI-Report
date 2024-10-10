@@ -151,3 +151,28 @@ On the bottom half on the report page, I place:
 
 ### Stores Map
 
+<p>
+    <img src="Github Images\Stores Map View.png" width="1000" height="500" />
+</p>
+
+This page is designed for regional managers so they can get a quick overview on their local stone. I used the map visual, and the geographical hierarchy I created earlier. I then used the ```Profit YTD``` for the bubble size. On the very top I created a country slicer to specify a country.
+
+
+
+I then created a custom tooltips page that gave specific information about how a country is doing.  I created 2 gauges, one for profit ytd, and revenue ytd, where their targets were a 20% increase from the previous year. 
+
+<p>
+    <img src="Github Images\Tooltip page.png" width="700" height="350" />
+</p>
+
+I set this page as a tooltip page, which means when I hover over a specific country, it will show specific metrics on them.
+
+<p>
+    <img src="Github Images\page information format.png" width="100" height="350"/>
+</p>
+
+which turns out like this: 
+
+<p>
+    <img src="Github Images\Stores Map tooltip.png" width="1000" height="500"/>
+</p>
