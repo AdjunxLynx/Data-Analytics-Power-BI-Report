@@ -176,3 +176,12 @@ which turns out like this:
 <p>
     <img src="Github Images\Stores Map tooltip.png" width="1000" height="500"/>
 </p>
+ 
+
+### Navigation bar
+
+To enhance user friendliness, I create a navigation bar to allow the user to easily change between pages based on their needs. These are just simple buttons that change the activate page. I also used the ```on hover``` settings to change how the button looks when the mouse cursor is above the button.
+
+<p>
+    <img src="Github Images\Navigation bar.png" width="40" height="500"/>
+</p>
