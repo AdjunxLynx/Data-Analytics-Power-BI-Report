@@ -54,6 +54,7 @@ I created 4 report pages within PBI:
 - [Customer Details](# Customer Details) 
 - [Product Details](# Product Details)
 - [Stores Map](# Stores Map)
+- [SQL Tests](# SQL Tests)
 
 ### Executive Summary 
 
@@ -185,3 +186,48 @@ To enhance user friendliness, I create a navigation bar to allow the user to eas
 <p>
     <img src="Github Images\Navigation bar.png" width="40" height="500"/>
 </p>
+### SQL Tests
+
+Finally, I used VScode to run SQL queries to a remote server with a copy of the database.
+
+Questions:
+
+- How many staff are there in all of the UK stores?
+- Which month in 2022 has had the highest revenue?
+- Which German store type had the highest revenue for 2022?
+- Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders
+- Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+
+
+
+Overview on how I queried the Database:
+
+- <p>
+      <img src="Github Images\question 1.png" width="400" height="50"/>
+  </p>
+
+  I used a basic ```SELECT``` to get the column, and the ```WHERE``` to filter to the UK
+
+- <p>
+      <img src="Github Images\question 2.png" width="700" height="350"/>
+  </p>
+
+  Here I used a ```CASE``` keyword to change the month from 1-12 to its respective month name. I then ```GROUP BY``` month so the revenue is aggregated by each month. Finally, I use ```WHERE``` to filter by 2022
+
+- <p>
+      <img src="Github Images\question 3.png" width="700" height="350"/>
+  </p>
+
+- 
+
+- <p>
+      <img src="Github Images\question 4.png" width="700" height="350"/>
+  </p>
+
+  
+
+  <p>
+      <img src="Github Images\question 5.png" width="700" height="350"/>
+  </p>
+
+  
