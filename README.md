@@ -1,18 +1,18 @@
 # Data-Analytics-Power-BI-Report
 
-## [Installation](# Installation)
+## [Installation](#Installation)
 
 ## The Report
 
-- ### [Executive Summary](# Executive Summary)
+- ### [Executive Summary](#Executive Summary)
 
-- ### [Customer Details](# Customer Details) 
+- ### [Customer Details](#Customer Details) 
 
-- ### [Product Details](# Product Details)
+- ### [Product Details](#Product Details)
 
-- ### [Stores Map](# Stores Map)
+- ### [Stores Map](#Stores Map)
 
-## [SQL Tests](# SQL Tests)
+## [SQL Tests](#SQL Tests)
 
 # Installation
 
