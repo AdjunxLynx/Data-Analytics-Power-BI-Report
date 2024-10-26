@@ -4,13 +4,10 @@
 
 ## The Report
 
-- ### [Executive Summary](#Executive Summary)
-
-- ### [Customer Details](#Customer Details) 
-
-- ### [Product Details](#Product Details)
-
-- ### [Stores Map](#Stores Map)
+##### [Executive Summary](# Executive Summary)
+#####  [Customer Details](#Customer Details) 
+#####  [Product Details](#Product Details)
+#####  [Stores Map](#Stores Map)
 
 ## [SQL Tests](#SQL Tests)
 
@@ -51,7 +48,7 @@ I created 4 report pages within PBI:
 
 
 
-### Executive Summary 
+### Executive Summary
 
 <p>
     <img src="Github Images\Executive Summary View.png" width="1000" height="500" />
