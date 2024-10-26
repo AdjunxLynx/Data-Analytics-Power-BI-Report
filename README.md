@@ -1,17 +1,17 @@
 # Data-Analytics-Power-BI-Report
 
-## [Installation](#Installation)
+## [Installation](#Installation Guide)
 
 ## The Report
 
-##### [Executive Summary](#Executive Summary)
-##### [Customer Details](#Customer Details) 
-##### [Product Details](#Product Details)
-##### [Stores Map](#Stores Map)
+##### [Executive Summary](#Executive Summary Page)
+##### [Customer Details](#Customer Details Page) 
+##### [Product Details](#Product Details Page)
+##### [Stores Map](#Stores Map Page)
 
 ## [SQL Tests](#SQL Tests)
 
-# Installation
+# Installation Guide
 
 This Power BI report requires 4 cleaned tables called: 
 
@@ -48,7 +48,7 @@ I created 4 report pages within PBI:
 
 
 
-### Executive Summary
+### Executive Summary Page
 
 <p>
     <img src="Github Images\Executive Summary View.png" width="1000" height="500" />
@@ -62,7 +62,7 @@ There is a table that displays the top 10 Items selling, ranked by revenue it ha
 Here we can use the donut chart to get a quick view on which countries and store type is doing the best.
 
 
-### Customer Details
+### Customer Details Page
 
 <p>
     <img src="Github Images\Customer Detail View.png" width="1000" height="500" />
@@ -78,7 +78,7 @@ Finally, I created a date slicer to help the user filter the year shown on the r
 
 
 
-### Product Details
+### Product Details Page
 
 <p>
     <img src="Github Images\Product Detail View.png" width="1000" height="500" />
@@ -105,7 +105,7 @@ On the bottom half on the report page, I placed:
 
 
 
-### Stores Map
+### Stores Map Page
 
 <p>
     <img src="Github Images\Stores Map View.png" width="1000" height="500" />
@@ -139,7 +139,7 @@ To enhance user friendliness, I create a navigation bar to allow the user to eas
 <p>
     <img src="Github Images\Navigation bar.png" width="40" height="500"/>
 </p>
-### SQL Tests
+### SQL Tests Page
 
 Finally, I used VScode to run SQL queries to a remote server with a copy of the database.
 
