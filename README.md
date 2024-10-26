@@ -88,7 +88,7 @@ The bottom half includes:
 ### Stores Map Page
 
 <p>
-    <img src="Github Images\Stores Map View.png" width="1000" height="500" />
+    <img src="Github Images\Stores Map view.png" width="1000" height="500" />
 </p>
 
 Designed for regional managers, this page provides a quick overview of their local store's performance. I used the map visual with geographical hierarchy, using `Profit YTD` for bubble size. A country slicer allows for country-specific views.
