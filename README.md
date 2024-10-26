@@ -4,10 +4,10 @@
 
 ## The Report
 
-##### [Executive Summary](# Executive Summary)
-#####  [Customer Details](#Customer Details) 
-#####  [Product Details](#Product Details)
-#####  [Stores Map](#Stores Map)
+##### [Executive Summary](#Executive Summary)
+##### [Customer Details](#Customer Details) 
+##### [Product Details](#Product Details)
+##### [Stores Map](#Stores Map)
 
 ## [SQL Tests](#SQL Tests)
 
